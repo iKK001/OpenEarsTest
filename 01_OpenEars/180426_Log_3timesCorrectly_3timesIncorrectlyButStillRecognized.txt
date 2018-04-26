@@ -1,0 +1,316 @@
+2018-04-26 14:20:10.019105+0200 TestOpenEars[855:200800] Starting OpenEars logging for OpenEars version 2.506 on 64-bit device (or build): iPhone running iOS version: 11.300000
+2018-04-26 14:20:10.023783+0200 TestOpenEars[855:200800] Creating shared instance of OEPocketsphinxController
+2018-04-26 14:20:10.054189+0200 TestOpenEars[855:200800] Since there is no cached version, loading the language model lookup list for the acoustic model called AcousticModelGerman
+2018-04-26 14:20:10.058821+0200 TestOpenEars[855:200800] Since there is no cached version, loading the g2p model for the acoustic model called AcousticModelGerman
+2018-04-26 14:20:10.090691+0200 TestOpenEars[855:200800] The word do was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:20:10.090915+0200 TestOpenEars[855:200800] the graphemes "d oo" were created for the word do using the fallback method.
+2018-04-26 14:20:10.093520+0200 TestOpenEars[855:200800] The word esch was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:20:10.093665+0200 TestOpenEars[855:200800] the graphemes "@ ss" were created for the word esch using the fallback method.
+2018-04-26 14:20:10.096463+0200 TestOpenEars[855:200800] The word frey was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:20:10.096871+0200 TestOpenEars[855:200800] the graphemes "f r @ ii" were created for the word frey using the fallback method.
+2018-04-26 14:20:10.099578+0200 TestOpenEars[855:200800] The word no was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:20:10.099721+0200 TestOpenEars[855:200800] the graphemes "n oo" were created for the word no using the fallback method.
+2018-04-26 14:20:10.099770+0200 TestOpenEars[855:200800] I'm done running performDictionaryLookup and it took 0.040998 seconds
+2018-04-26 14:20:10.125578+0200 TestOpenEars[855:200800] Attempting to start listening session from startListeningWithLanguageModelAtPath:
+2018-04-26 14:20:10.127883+0200 TestOpenEars[855:200800] User gave mic permission for this app.
+2018-04-26 14:20:10.128755+0200 TestOpenEars[855:200800] setSecondsOfSilence wasn't set, using default of 0.700000.
+2018-04-26 14:20:10.129347+0200 TestOpenEars[855:200902] Starting listening.
+2018-04-26 14:20:10.129480+0200 TestOpenEars[855:200902] About to set up audio session
+2018-04-26 14:20:10.286464+0200 TestOpenEars[855:200902] Creating audio session with default settings.
+2018-04-26 14:20:10.286507+0200 TestOpenEars[855:200902] Done setting audio session category.
+2018-04-26 14:20:10.287294+0200 TestOpenEars[855:200912] Audio route has changed for the following reason:
+2018-04-26 14:20:10.291973+0200 TestOpenEars[855:200912] There was a category change. The new category is AVAudioSessionCategoryPlayAndRecord
+2018-04-26 14:20:10.293526+0200 TestOpenEars[855:200902] Done setting preferred sample rate to 16000.000000 – now the real sample rate is 48000.000000
+2018-04-26 14:20:10.293886+0200 TestOpenEars[855:200912] This is not a case in which OpenEars notifies of a route change. At the close of this method, the new audio route will be <Input route or routes: "MicrophoneBuiltIn". Output route or routes: "Speaker">. The previous route before changing to this route was "<AVAudioSessionRouteDescription: 0x1c02197e0,
+inputs = (null);
+outputs = (
+    "<AVAudioSessionPortDe2018-04-26 14:20:10.296177+0200 TestOpenEars[855:200902] number of channels is already the preferred number of 1 so not setting it.
+scription: 0x1c0219820, type = Speaker; name = Speaker; UID = Speaker; selectedDataSource = (null)>"
+)>".
+2018-04-26 14:20:10.348980+0200 TestOpenEars[855:200902] Done setting session's preferred I/O buffer duration to 0.128000 – now the actual buffer duration is 0.085333
+2018-04-26 14:20:10.349024+0200 TestOpenEars[855:200902] Done setting up audio session
+2018-04-26 14:20:10.349263+0200 TestOpenEars[855:200902] About to set up audio IO unit in a session with a sample rate of 48000.000000, a channel number of 1 and a buffer duration of 0.085333.
+2018-04-26 14:20:10.351230+0200 TestOpenEars[855:200912] Audio route has changed for the following reason:
+2018-04-26 14:20:10.351368+0200 TestOpenEars[855:200912] There was a category change. The new category is AVAudioSessionCategoryPlayAndRecord
+2018-04-26 14:20:10.364362+0200 TestOpenEars[855:200912] This is not a case in which OpenEars notifies of a route change. At the close of this method, the new audio route will be <Input route or routes: "MicrophoneBuiltIn". Output route or routes: "Speaker">. The previous route before changing to this route was "<AVAudioSessionRouteDescription: 0x1c421ca60,
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1c421c900, type = MicrophoneBuiltIn; name = iPhone Microphone; UID = Built-In Microphone; selectedDataSource = Bottom>"
+);
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1c421c9f0, type = Receiver; name = Receiver; UID = Built-In Receiver; selectedDataSource = (null)>"
+)>".
+2018-04-26 14:20:10.376924+0200 TestOpenEars[855:200902] Done setting up audio unit
+2018-04-26 14:20:10.376973+0200 TestOpenEars[855:200902] About to start audio IO unit
+2018-04-26 14:20:10.582579+0200 TestOpenEars[855:200902] Done starting audio unit
+INFO: pocketsphinx.c(145): Parsed model-specific feature parameters from /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/feat.params
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-agc			none		none
+-agcthresh		2.0		2.000000e+00
+-allphone
+-allphone_ci		no		no
+-alpha			0.97		9.700000e-01
+-ascale			20.0		2.000000e+01
+-aw			1		1
+-backtrace		no		no
+-beam			1e-48		1.000000e-48
+-bestpath		yes		yes
+-bestpathlw		9.5		9.500000e+00
+-ceplen			13		13
+-cmn			current		current
+-cmninit		8.0		30
+-compallsen		no		no
+-debug					0
+-dict					/var/mobile/Containers/Data/Application/013CFA98-D972-4B0F-AC1E-28D7B96E7AE1/Library/Caches/GermanModel.dic
+-dictcase		no		no
+-dither			no		no
+-doublebw		no		no
+-ds			1		1
+-fdict					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/noisedict
+-feat			1s_c_d_dd	1s_c_d_dd
+-featparams				/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/feat.params
+-fillprob		1e-8		1.000000e-08
+-frate			100		100
+-fsg
+-fsgusealtpron		yes		yes
+-fsgusefiller		yes		yes
+-fwdflat		yes		yes
+-fwdflatbeam		1e-64		1.000000e-64
+-fwdflatefwid		4		4
+-fwdflatlw		8.5		8.500000e+00
+-fwdflatsfwin		25		25
+-fwdflatwbeam		7e-29		7.000000e-29
+-fwdtree		yes		yes
+-hmm					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle
+-input_endian		little		little
+-jsgf					/var/mobile/Containers/Data/Application/013CFA98-D972-4B0F-AC1E-28D7B96E7AE1/Library/Caches/GermanModel.gram
+-keyphrase
+-kws
+-kws_delay		10		10
+-kws_plp		1e-1		1.000000e-01
+-kws_threshold		1		1.000000e+00
+-latsize		5000		5000
+-lda
+-ldadim			0		0
+-lifter			0		22
+-lm
+-lmctl
+-lmname
+-logbase		1.0001		1.000100e+00
+-logfn
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-lpbeam			1e-40		1.000000e-40
+-lponlybeam		7e-29		7.000000e-29
+-lw			6.5		1.000000e+00
+-maxhmmpf		30000		30000
+-maxwpf			-1		-1
+-mdef					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/mdef
+-mean					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/means
+-mfclogdir
+-min_endfr		0		0
+-mixw					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/mixture_weights
+-mixwfloor		0.0000001	1.000000e-07
+-mllr
+-mmap			yes		yes
+-ncep			13		13
+-nfft			512		512
+-nfilt			40		25
+-nwpen			1.0		1.000000e+00
+-pbeam			1e-48		1.000000e-48
+-pip			1.0		1.000000e+00
+-pl_beam		1e-10		1.000000e-10
+-pl_pbeam		1e-10		1.000000e-10
+-pl_pip			1.0		1.000000e+00
+-pl_weight		3.0		3.000000e+00
+-pl_window		5		5
+-rawlogdir
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-sendump
+-senlogdir
+-senmgau
+-silprob		0.005		5.000000e-03
+-smoothspec		no		no
+-svspec
+-tmat					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/transition_matrices
+-tmatfloor		0.0001		1.000000e-04
+-topn			4		4
+-topn_beam		0		0
+-toprule
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-uw			1.0		1.000000e+00
+-vad_postspeech		50		69
+-vad_prespeech		20		10
+-vad_startspeech	10		10
+-vad_threshold		2.0		3.200000e+00
+-var					/var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/variances
+-varfloor		0.0001		1.000000e-04
+-varnorm		no		no
+-verbose		no		no
+-warp_params
+-warp_type		inverse_linear	inverse_linear
+-wbeam			7e-29		7.000000e-29
+-wip			0.65		6.500000e-01
+-wlen			0.025625	2.562500e-02
+
+INFO: feat.c(715): Initializing feature stream to type: '1s_c_d_dd', ceplen=13, CMN='current', VARNORM='no', AGC='none'
+INFO: cmn.c(143): mean[0]= 12.00, mean[1..12]= 0.0
+INFO: mdef.c(518): Reading model definition: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/mdef
+INFO: bin_mdef.c(181): Allocating 53834 * 8 bytes (420 KiB) for CD tree
+INFO: tmat.c(206): Reading HMM transition probability matrices: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/transition_matrices
+INFO: acmod.c(117): Attempting to use PTM computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/means
+INFO: ms_gauden.c(292): 2129 codebook, 1 feature, size:
+INFO: ms_gauden.c(294):  32x39
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/variances
+INFO: ms_gauden.c(292): 2129 codebook, 1 feature, size:
+INFO: ms_gauden.c(294):  32x39
+INFO: ms_gauden.c(354): 7100 variance values floored
+INFO: ptm_mgau.c(801): Number of codebooks exceeds 256: 2129
+INFO: acmod.c(119): Attempting to use semi-continuous computation module
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/means
+INFO: ms_gauden.c(292): 2129 codebook, 1 feature, size:
+INFO: ms_gauden.c(294):  32x39
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/variances
+INFO: ms_gauden.c(292): 2129 codebook, 1 feature, size:
+INFO: ms_gauden.c(294):  32x39
+INFO: ms_gauden.c(354): 7100 variance values floored
+INFO: acmod.c(121): Falling back to general multi-stream GMM computation
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/means
+INFO: ms_gauden.c(292): 2129 codebook, 1 feature, size:
+INFO: ms_gauden.c(294):  32x39
+INFO: ms_gauden.c(198): Reading mixture gaussian parameter: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/variances
+INFO: ms_gauden.c(292): 2129 codebook, 1 feature, size:
+INFO: ms_gauden.c(294):  32x39
+INFO: ms_gauden.c(354): 7100 variance values floored
+INFO: ms_senone.c(149): Reading senone mixture weights: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/mixture_weights
+INFO: ms_senone.c(200): Truncating senone logs3(pdf) values by 10 bits
+INFO: ms_senone.c(207): Not transposing mixture weights in memory
+INFO: ms_senone.c(268): Read mixture weights for 2129 senones: 1 features x 32 codewords
+INFO: ms_senone.c(320): Mapping senones to individual codebooks
+INFO: ms_mgau.c(141): The value of topn: 4
+INFO: phone_loop_search.c(114): State beam -225 Phone exit beam -225 Insertion penalty 0
+INFO: dict.c(320): Allocating 4104 * 32 bytes (128 KiB) for word entries
+INFO: dict.c(333): Reading main dictionary: /var/mobile/Containers/Data/Application/013CFA98-D972-4B0F-AC1E-28D7B96E7AE1/Library/Caches/GermanModel.dic
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(336): 4 words read
+INFO: dict.c(358): Reading filler dictionary: /var/containers/Bundle/Application/B03FB767-CC22-427B-8A8F-C55C6952547E/TestOpenEars.app/AcousticModelGerman.bundle/noisedict
+INFO: dict.c(213): Allocated 0 KiB for strings, 0 KiB for phones
+INFO: dict.c(361): 4 words read
+INFO: dict2pid.c(396): Building PID tables for dictionary
+INFO: dict2pid.c(406): Allocating 43^3 * 2 bytes (155 KiB) for word-initial triphones
+INFO: dict2pid.c(132): Allocated 44720 bytes (43 KiB) for word-final triphones
+INFO: dict2pid.c(196): Allocated 44720 bytes (43 KiB) for single-phone word triphones
+INFO: jsgf.c(691): Defined rule: <GermanModel.g00000>
+INFO: jsgf.c(691): Defined rule: <GermanModel.rule_0>
+INFO: jsgf.c(691): Defined rule: <GermanModel.g00002>
+INFO: jsgf.c(691): Defined rule: PUBLIC <GermanModel.rule_1>
+INFO: fsg_model.c(215): Computing transitive closure for null transitions
+INFO: fsg_model.c(277): 0 null transitions added
+INFO: fsg_search.c(227): FSG(beam: -1080, pbeam: -1080, wbeam: -634; wip: -5, pip: 0)
+INFO: fsg_model.c(428): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(448): Added 5 silence word transitions
+INFO: fsg_model.c(428): Adding silence transitions for <sil> to FSG
+INFO: fsg_model.c(448): Added 5 silence word transitions
+INFO: fsg_search.c(173): Added 0 alternate word transitions
+INFO: fsg_lextree.c(110): Allocated 440 bytes (0 KiB) for left and right context phones
+INFO: fsg_lextree.c(256): 17 HMM nodes in lextree (11 leaves)
+INFO: fsg_lextree.c(259): Allocated 2448 bytes (2 KiB) for all lextree nodes
+INFO: fsg_lextree.c(262): Allocated 1584 bytes (1 KiB) for lextree leafnodes
+2018-04-26 14:20:10.980309+0200 TestOpenEars[855:200902] There is no CMN plist so we are using the fresh CMN value 30.000000.
+2018-04-26 14:20:10.980550+0200 TestOpenEars[855:200902] Listening.
+2018-04-26 14:20:10.980751+0200 TestOpenEars[855:200902] Project has these words or phrases in its dictionary:
+do
+esch
+frey
+no
+2018-04-26 14:20:10.980813+0200 TestOpenEars[855:200902] Recognition loop has started
+2018-04-26 14:20:10.980974+0200 TestOpenEars[855:200800] Successfully started listening session from startListeningWithLanguageModelAtPath:
+Local callback: Pocketsphinx is now listening.
+Local callback: Pocketsphinx started.
+2018-04-26 14:20:12.317295+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+2018-04-26 14:20:13.081072+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 30.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00  0.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 46.15  2.98 -5.78  8.50  2.10  8.68 -5.70 -0.20  3.34  3.18  3.66 -2.17  1.75 >
+INFO: fsg_search.c(843): 89 frames, 884 HMMs (9/fr), 2138 senones (24/fr), 328 history entries (3/fr)
+
+ERROR: "fsg_search.c", line 913: Final result does not match the grammar in frame 89
+2018-04-26 14:20:13.082078+0200 TestOpenEars[855:200901] Pocketsphinx heard "" with a score of (0) and an utterance ID of 0.
+2018-04-26 14:20:13.082118+0200 TestOpenEars[855:200901] Hypothesis was null so we aren't returning it. If you want null hypotheses to also be returned, set OEPocketsphinxController's property returnNullHypotheses to TRUE before starting OEPocketsphinxController.
+2018-04-26 14:20:14.161834+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+2018-04-26 14:20:15.681560+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 46.15  2.98 -5.78  8.50  2.10  8.68 -5.70 -0.20  3.34  3.18  3.66 -2.17  1.75 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 53.81 13.84  2.02 12.66 -1.03  2.96  0.48 -0.29  1.19 -2.56  9.34 -2.58  3.07 >
+INFO: fsg_search.c(843): 163 frames, 1147 HMMs (7/fr), 2683 senones (16/fr), 377 history entries (2/fr)
+
+2018-04-26 14:20:15.682859+0200 TestOpenEars[855:200901] Pocketsphinx heard "esch do no frey" with a score of (0) and an utterance ID of 1.
+Local callback: The received hypothesis is esch do no frey with a score of 0 and an ID of 1
+2018-04-26 14:20:17.703826+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+2018-04-26 14:20:20.959009+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 53.81 13.84  2.02 12.66 -1.03  2.96  0.48 -0.29  1.19 -2.56  9.34 -2.58  3.07 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 51.37 11.60 -2.40 14.41 -0.07  3.47  2.00  0.56  1.99 -2.81  9.57 -0.96  0.01 >
+INFO: fsg_search.c(843): 327 frames, 3086 HMMs (9/fr), 8311 senones (25/fr), 1148 history entries (3/fr)
+
+2018-04-26 14:20:20.960257+0200 TestOpenEars[855:200901] Pocketsphinx heard "esch do no frey" with a score of (0) and an utterance ID of 2.
+Local callback: The received hypothesis is esch do no frey with a score of 0 and an ID of 2
+2018-04-26 14:20:21.466210+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+INFO: cmn_prior.c(99): cmn_prior_update: from < 51.37 11.60 -2.40 14.41 -0.07  3.47  2.00  0.56  1.99 -2.81  9.57 -0.96  0.01 >
+INFO: cmn_prior.c(116): cmn_prior_update: to   < 53.48 10.52 -4.66 15.71 -1.92  1.99  1.18  0.71  1.77 -3.62  9.34 -1.41  0.02 >
+2018-04-26 14:20:25.919786+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 53.48 10.52 -4.66 15.71 -1.92  1.99  1.18  0.71  1.77 -3.62  9.34 -1.41  0.02 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 51.77 10.24 -7.75 14.68 -3.04  1.77 -0.75 -0.77  1.82 -2.91  9.00 -2.32  0.78 >
+INFO: fsg_search.c(843): 465 frames, 4827 HMMs (10/fr), 12343 senones (26/fr), 1632 history entries (3/fr)
+
+2018-04-26 14:20:25.921100+0200 TestOpenEars[855:200901] Pocketsphinx heard "esch do no frey" with a score of (0) and an utterance ID of 3.
+Local callback: The received hypothesis is esch do no frey with a score of 0 and an ID of 3
+2018-04-26 14:20:27.458715+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+INFO: cmn_prior.c(99): cmn_prior_update: from < 51.77 10.24 -7.75 14.68 -3.04  1.77 -0.75 -0.77  1.82 -2.91  9.00 -2.32  0.78 >
+INFO: cmn_prior.c(116): cmn_prior_update: to   < 52.77  9.59 -7.43 15.66 -3.23  1.64 -0.30 -0.78  2.09 -3.18  9.10 -2.49  1.00 >
+2018-04-26 14:20:30.029392+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 52.77  9.59 -7.43 15.66 -3.23  1.64 -0.30 -0.78  2.09 -3.18  9.10 -2.49  1.00 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 51.21  9.38 -4.24 14.20 -0.97  2.18  0.35 -0.45  1.77 -2.44  8.62 -3.54  0.51 >
+INFO: fsg_search.c(843): 264 frames, 2376 HMMs (9/fr), 6612 senones (25/fr), 771 history entries (2/fr)
+
+2018-04-26 14:20:30.031324+0200 TestOpenEars[855:200901] Pocketsphinx heard "esch do no frey" with a score of (0) and an utterance ID of 4.
+Local callback: The received hypothesis is esch do no frey with a score of 0 and an ID of 4
+2018-04-26 14:20:31.182336+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+INFO: cmn_prior.c(99): cmn_prior_update: from < 51.21  9.38 -4.24 14.20 -0.97  2.18  0.35 -0.45  1.77 -2.44  8.62 -3.54  0.51 >
+INFO: cmn_prior.c(116): cmn_prior_update: to   < 52.60  8.55 -4.08 14.58 -1.34  2.12  0.61  0.33  1.82 -2.91  8.91 -3.29  0.82 >
+2018-04-26 14:20:32.670248+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 52.60  8.55 -4.08 14.58 -1.34  2.12  0.61  0.33  1.82 -2.91  8.91 -3.29  0.82 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 51.15  7.81 -3.13 14.21 -0.22  2.85  1.37  0.92  2.32 -3.57  9.33 -3.00  0.93 >
+INFO: fsg_search.c(843): 152 frames, 1303 HMMs (8/fr), 3622 senones (23/fr), 495 history entries (3/fr)
+
+2018-04-26 14:20:32.671568+0200 TestOpenEars[855:200901] Pocketsphinx heard "esch do no frey" with a score of (0) and an utterance ID of 5.
+Local callback: The received hypothesis is esch do no frey with a score of 0 and an ID of 5
+2018-04-26 14:20:34.893678+0200 TestOpenEars[855:200901] Speech detected...
+Local callback: Pocketsphinx has detected speech.
+INFO: cmn_prior.c(99): cmn_prior_update: from < 51.15  7.81 -3.13 14.21 -0.22  2.85  1.37  0.92  2.32 -3.57  9.33 -3.00  0.93 >
+INFO: cmn_prior.c(116): cmn_prior_update: to   < 52.01  5.60 -3.07 14.51 -0.17  3.24  1.18  0.22  2.72 -3.62  9.38 -3.67  0.88 >
+2018-04-26 14:20:38.176948+0200 TestOpenEars[855:200901] End of speech detected...
+Local callback: Pocketsphinx has detected a second of silence, concluding an utterance.
+INFO: cmn_prior.c(131): cmn_prior_update: from < 52.01  5.60 -3.07 14.51 -0.17  3.24  1.18  0.22  2.72 -3.62  9.38 -3.67  0.88 >
+INFO: cmn_prior.c(149): cmn_prior_update: to   < 50.63  3.99 -2.35 13.00 -0.27  1.57  0.16  0.43  2.64 -2.80  7.65 -3.62 -0.09 >
+INFO: fsg_search.c(843): 338 frames, 2729 HMMs (8/fr), 7568 senones (22/fr), 881 history entries (2/fr)
+
+2018-04-26 14:20:38.178234+0200 TestOpenEars[855:200901] Pocketsphinx heard "esch do no frey" with a score of (0) and an utterance ID of 6.
+Local callback: The received hypothesis is esch do no frey with a score of 0 and an ID of 6

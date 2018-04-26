@@ -1,0 +1,38 @@
+2018-04-26 14:18:54.267721+0200 TestOpenEars[852:199651] Starting OpenEars logging for OpenEars version 2.506 on 64-bit device (or build): iPhone running iOS version: 11.300000
+2018-04-26 14:18:54.268585+0200 TestOpenEars[852:199651] Creating shared instance of OEPocketsphinxController
+2018-04-26 14:18:54.287758+0200 TestOpenEars[852:199651] RuleORama version 2.502000
+2018-04-26 14:18:54.300205+0200 TestOpenEars[852:199651] Since there is no cached version, loading the language model lookup list for the acoustic model called AcousticModelGerman
+2018-04-26 14:18:54.304787+0200 TestOpenEars[852:199651] Since there is no cached version, loading the g2p model for the acoustic model called AcousticModelGerman
+2018-04-26 14:18:54.337530+0200 TestOpenEars[852:199651] The word do was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/A4EA0985-6F3F-4288-AC4E-B2743753C6BB/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:18:54.337739+0200 TestOpenEars[852:199651] the graphemes "d oo" were created for the word do using the fallback method.
+2018-04-26 14:18:54.340529+0200 TestOpenEars[852:199651] The word esch was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/A4EA0985-6F3F-4288-AC4E-B2743753C6BB/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:18:54.340690+0200 TestOpenEars[852:199651] the graphemes "@ ss" were created for the word esch using the fallback method.
+2018-04-26 14:18:54.343402+0200 TestOpenEars[852:199651] The word frey was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/A4EA0985-6F3F-4288-AC4E-B2743753C6BB/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:18:54.343764+0200 TestOpenEars[852:199651] the graphemes "f r @ ii" were created for the word frey using the fallback method.
+2018-04-26 14:18:54.346413+0200 TestOpenEars[852:199651] The word no was not found in the dictionary of the acoustic model /var/containers/Bundle/Application/A4EA0985-6F3F-4288-AC4E-B2743753C6BB/TestOpenEars.app/AcousticModelGerman.bundle. Now using the fallback method to look it up. If this is happening more frequently than you would expect, likely causes can be that you are entering words in another language from the one you are recognizing, or that there are symbols (including numbers) that need to be spelled out or cleaned up, or you are using your own acoustic model and there is an issue with either its phonetic dictionary or it lacks a g2p file. Please get in touch at the forums for assistance with the last two possible issues.
+2018-04-26 14:18:54.346537+0200 TestOpenEars[852:199651] the graphemes "n oo" were created for the word no using the fallback method.
+2018-04-26 14:18:54.346563+0200 TestOpenEars[852:199651] I'm done running performDictionaryLookup and it took 0.041819 seconds
+2018-04-26 14:18:54.363547+0200 TestOpenEars[852:199651] Starting dynamic language model generation
+
+INFO: ngram_model_arpa_legacy.c(504): ngrams 1=3, 2=0, 3=0
+INFO: ngram_model_arpa_legacy.c(136): Reading unigrams
+INFO: ngram_model_arpa_legacy.c(543):        3 = #unigrams created
+INFO: ngram_model_dmp_legacy.c(521): Building DMP model...
+INFO: ngram_model_dmp_legacy.c(551):        3 = #unigrams created
+2018-04-26 14:18:54.388192+0200 TestOpenEars[852:199651] Done creating language model with CMUCLMTK in 0.024598 seconds.
+2018-04-26 14:18:54.391736+0200 TestOpenEars[852:199651] Generating fast grammar took 0.091920 seconds
+INFO: ngram_model_trie.c(424): Trying to read LM in bin format
+INFO: ngram_model_trie.c(457): Header doesn't match
+INFO: ngram_model_trie.c(180): Trying to read LM in arpa format
+INFO: ngram_model_trie.c(218): LM of order 1
+INFO: ngram_model_trie.c(220): #1-grams: 3
+2018-04-26 14:18:54.395484+0200 TestOpenEars[852:199651] Attempting to start listening session from startListeningWithLanguageModelAtPath:
+2018-04-26 14:18:54.395577+0200 TestOpenEars[852:199651] Error: you have invoked the method:
+
+startListeningWithLanguageModelAtPath:(NSString *)languageModelPath dictionaryAtPath:(NSString *)dictionaryPath acousticModelAtPath:(NSString *)acousticModelPath languageModelIsJSGF:(BOOL)languageModelIsJSGF
+
+with a languageModelPath which is nil. If your call to OELanguageModelGenerator did not return an error when you generated this grammar, that means the correct path to your grammar that you should pass to this method's languageModelPath argument is as follows:
+
+NSString *correctPathToMyLanguageModelFile = [myLanguageModelGenerator pathToSuccessfullyGeneratedGrammarWithRequestedName:@"TheNameIChoseForMyVocabulary"];
+
+Feel free to copy and paste this code for your path to your grammar, but remember to replace the part that says "TheNameIChoseForMyVocabulary" with the name you actually chose for your grammar or you will get this error again (and replace myLanguageModelGenerator with the name of your OELanguageModelGenerator instance). Since this file is required, expect an exception or undocumented behavior shortly.
