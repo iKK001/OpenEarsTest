@@ -28,8 +28,8 @@ class ViewController: UIViewController, OEEventsObserverDelegate {
         
         let fileName = "GermanModel"
         
-        // let words = ["eschdonofrey"]
-        let words = ["esch do no frey"]
+        // let words = ["esch do no frey"]
+        let words = ["eschdonofrey"]
         
         // let err: Error! = lmGenerator.generateLanguageModel(from: words, withFilesNamed: name, forAcousticModelAtPath: OEAcousticModel.path(toModel: accusticModelName))
         
